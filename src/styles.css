@@ -1,0 +1,13 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 70px;
+}
+.navbar {
+  background-color: #121241;
+}
