@@ -17,7 +17,7 @@ function Navbar() {
               className="rounded-full border-2 w-10 h-10"
             />
           </div>
-          <span className="hidden md:block text-xl font-semibold text-white">
+          <span className="md:block text-lg font-semibold text-white">
             Aniket Hedau
           </span>
         </a>
