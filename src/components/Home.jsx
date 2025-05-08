@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Home() {
   return (
     <section id="home" className="min-h-screen flex flex-col md:flex-row">
@@ -45,7 +44,6 @@ function Home() {
       </div>
 
       {/* Right Section */}
-      {/* Right Section - About Me */}
       <div
         className="w-full md:w-1/2 flex flex-col items-center justify-center p-10 relative"
         style={{
@@ -85,9 +83,12 @@ function Home() {
             >
               View Work
             </a>
+
+            {/* Directly Linking to the PDF in the public folder */}
             <a
-              href="/Aniket_Resume.pdf"
-              download="Aniket_Resume.pdf"
+              href="https://drive.google.com/file/d/1ssxVNrg_DF6egner0BlU0jF053TQIrTg/view?usp=drive_link" 
+              target="_blank"
+              download="Aniket_Hedau.pdf"
               className="px-6 py-2 bg-black text-white rounded-full font-semibold hover:bg-gray-800 transition duration-300 shadow-md"
             >
               Download Resume
