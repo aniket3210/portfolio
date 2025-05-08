@@ -54,7 +54,7 @@ function Home() {
         data-aos="fade-left"
       >
         {/* Glassmorphism Card */}
-        <div className="bg-white bg-opacity-20 backdrop-blur-lg p-4 text-justify rounded-2xl shadow-lg max-w-md text-center">
+        <div className="bg-[#3adcf1] bg-opacity-20 backdrop-blur-lg p-4 text-justify rounded-2xl shadow-lg max-w-md">
           <h2 className="text-4xl font-extrabold mb-3 text-white animate-bounce">
             About Me
           </h2>
